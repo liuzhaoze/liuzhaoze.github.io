@@ -118,7 +118,7 @@ tags: [ue5, drl]    # TAG names should always be lowercase
 变量表
 
 |行号|变量名|类型|可见性|初始值|说明|
-|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-|
 |1|`TrainingCompleted`|Boolean|private|False|指示训练是否结束（在[编写 Pole 蓝图程序](#6-编写-pole-蓝图程序)时已添加）|
 |2|`MindMakerStructure`|S Mind Maker Custom Struct|private|None|用于向 Python 脚本发送状态向量和 reward|
 |3|`MinActionVal`|Float|private|0.0|动作的最小值|
