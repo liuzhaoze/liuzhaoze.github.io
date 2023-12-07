@@ -5,37 +5,37 @@ order: 4
 ---
 
 # 友情链接
-<!-- 在Markdown文件中嵌入以下HTML代码 -->
+
 <div class="friend-links">
   <div class="column">
-    <a href="https://www.nyanners.moe/" class="link" target="_blank">
+    <div class="link-item">
       <img src="https://static.nyanners.moe/71eec8eb-a492-4f11-b59f-360299a7a14f.webp" alt="favicon" class="favicon"/>
-      <span>X-Zero-L</span>
-    </a>
-    <a href="https://ftlian.top/" class="link" target="_blank">
+      <a href="https://www.nyanners.moe/" class="link-text" target="_blank">X-Zero-L</a>
+    </div>
+    <div class="link-item">
       <img src="https://ftlian.top/wp-content/uploads/2023/04/header-150x150-2.jpg" alt="favicon" class="favicon"/>
-      <span>FTL's Blog</span>
-    </a>
+      <a href="https://ftlian.top/" class="link-text" target="_blank">FTL's Blog</a>
+    </div>
   </div>
   <div class="column">
-    <a href="https://maxng.cc/" class="link" target="_blank">
+    <div class="link-item">
       <img src="https://maxng.cc/favicon.ico" alt="favicon" class="favicon"/>
-      <span>Max的技术栈</span>
-    </a>
-    <a href="https://catcat.blog/" class="link" target="_blank">
+      <a href="https://maxng.cc/" class="link-text" target="_blank">Max的技术栈</a>
+    </div>
+    <div class="link-item">
       <img src="https://catcat.blog/wp-content/uploads/2023/03/cropped-20230321091445718-32x32.webp" alt="favicon" class="favicon"/>
-      <span>猫猫博客</span>
-    </a>
+      <a href="https://catcat.blog/" class="link-text" target="_blank">猫猫博客</a>
+    </div>
   </div>
   <div class="column">
-    <a href="https://xinalin.com/" class="link" target="_blank">
+    <div class="link-item">
       <img src="https://xinalin.com/wp-content/uploads/2023/03/cropped-faviconV2-32x32.png" alt="favicon" class="favicon"/>
-      <span>雪林荧光</span>
-    </a>
-    <a href="https://c26h52.github.io/" class="link" target="_blank">
+      <a href="https://xinalin.com/" class="link-text" target="_blank">雪林荧光</a>
+    </div>
+    <div class="link-item">
       <img src="https://c26h52.github.io/favicon.png" alt="favicon" class="favicon"/>
-      <span>C26H52</span>
-    </a>
+      <a href="https://c26h52.github.io/" class="link-text" target="_blank">C26H52</a>
+    </div>
   </div>
 </div>
 
@@ -52,11 +52,9 @@ order: 4
 .column:last-child {
   margin-right: 0; /* 最后一栏不需要右边距 */
 }
-.link {
+.link-item {
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: black; /* 链接文字颜色 */
   margin-bottom: 10px; /* 链接与链接之间的间隔 */
 }
 .favicon {
@@ -64,19 +62,27 @@ order: 4
   height: 32px;
   margin-right: 10px; /* 图标和文字之间的间隔 */
 }
+.link-text {
+  text-decoration: none;
+  color: black; /* 链接文字颜色 */
+}
+@media(prefers-color-scheme: light) {
+  html:not([data-mode]) .link-text, html[data-mode=light] .link-text {
+    color: black;
+  }
+  html[data-mode=dark] .link-text {
+    color: white;
+  }
+}
+@media(prefers-color-scheme: dark) {
+  html:not([data-mode]) .link-text, html[data-mode=dark] .link-text {
+    color: white;
+  }
+  html[data-mode=dark] .link-text {
+    color: black;
+  }
+}
 </style>
 
 > 欢迎向我提交 [Issue](https://github.com/liuzhaoze/liuzhaoze.github.io/issues) 交换友情链接
 {: .prompt-tip }
-
-<!-- [X-Zero-L](https://www.nyanners.moe/) -->
-
-<!-- [Max的技术栈](https://maxng.cc/) -->
-
-<!-- [雪林荧光](https://xinalin.com/) -->
-
-<!-- [FTL's Blog](https://ftlian.top/) -->
-
-<!-- [猫猫博客](https://catcat.blog/) -->
-
-<!-- [C26H52](https://c26h52.github.io/) -->
