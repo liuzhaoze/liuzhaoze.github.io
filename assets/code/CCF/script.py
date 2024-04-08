@@ -59,7 +59,7 @@ if __name__ == "__main__":
         markdown += f"## {field}\n\n"
         for category, category_data in field_data.items():
             markdown += f"### {field}-{category}\n\n"
-            markdown += "|评级|序号|名称|全程|出版社|\n"
+            markdown += "|评级|序号|名称|全称|出版社|\n"
             markdown += "|:-:|:-:|:-:|:--|:-:|\n"
             for rank, items in category_data.items():
                 for item in items:
