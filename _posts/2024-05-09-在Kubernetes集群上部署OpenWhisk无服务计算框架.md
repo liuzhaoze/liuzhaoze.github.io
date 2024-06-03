@@ -554,3 +554,27 @@ curl -k https://10.251.200.141:31001/api/v1/web/guest/default/helloweb?name=Pyth
   "name": "Python"
 }
 ```
+
+## 8 运维相关
+
+### 8.1 关闭虚拟机
+
+关闭顺序：worker1 -> worker2 -> master -> storage
+
+```bash
+multipass stop worker1
+multipass stop worker2
+multipass stop master
+multipass stop storage
+```
+
+### 8.2 启动虚拟机
+
+启动顺序：storage -> master -> worker1 -> worker2
+
+```bash
+multipass start storage
+multipass start master
+multipass start worker1
+multipass start worker2
+```
