@@ -337,12 +337,6 @@ nginx:
 invoker:
   containerFactory:
     impl: "kubernetes"
-
-# wurstmeister/kafka was removed from Docker Hub
-# https://github.com/wurstmeister/kafka-docker/issues/744
-kafka:
-  imageName: "fatal69100/kafka"
-  imageTag: "2.8.1"
 ```
 
 将上述内容写入 `~/kubeyaml/mycluster.yaml` 文件中。
@@ -425,6 +419,7 @@ packages
 ```bash
 # 查看 OpenWhisk 全部资源状态
 sudo kubectl get all -n openwhisk
+sudo kubectl get all -o wide -n openwhisk
 
 # 卸载 OpenWhisk
 sudo helm --kubeconfig /etc/rancher/k3s/k3s.yaml uninstall owdev -n openwhisk
