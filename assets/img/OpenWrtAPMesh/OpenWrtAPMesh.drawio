@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-07-18T03:24:48.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="ISLHgtd5gaTWBZ1pyLx1" version="24.6.4" type="device">
+  <diagram name="第 1 页" id="k_IrAgC4Wr0JdGPT4DGN">
+    <mxGraphModel dx="1208" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-11" value="&lt;div&gt;DHCP配置：&lt;/div&gt;&lt;div&gt;IP地址：192.168.1.1&lt;/div&gt;&lt;div&gt;子网掩码：255.255.255.0&lt;/div&gt;&lt;div&gt;开始IP地址：192.168.1.100&lt;/div&gt;&lt;div style=&quot;&quot;&gt;结束IP地址：192.168.1.254&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-60" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-6" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.modem;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-15">
+          <mxGeometry width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-8" value="光猫/主路由" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-15">
+          <mxGeometry y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-200" y="160" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-7" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-16">
+          <mxGeometry x="30" width="100" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-12" value="OpenWrt AP 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-16">
+          <mxGeometry y="85" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="160" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-13" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-17">
+          <mxGeometry x="30" width="100" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-14" value="OpenWrt AP 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="OR8ly00u9XFqKpBdfUVp-17">
+          <mxGeometry y="85" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-18" value="WAN口MAC地址：4C:C6:4C:22:22:0A&lt;div style=&quot;&quot;&gt;LAN网桥MAC地址：4C:C6:4C:22:22:0B&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="285" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-19" value="WAN口MAC地址：4C:C6:4C:11:11:0A&lt;div style=&quot;&quot;&gt;LAN网桥MAC地址：4C:C6:4C:11:11:0B&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="285" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="OR8ly00u9XFqKpBdfUVp-8" target="OR8ly00u9XFqKpBdfUVp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR8ly00u9XFqKpBdfUVp-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="OR8ly00u9XFqKpBdfUVp-8" target="OR8ly00u9XFqKpBdfUVp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
