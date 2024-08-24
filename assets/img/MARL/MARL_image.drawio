@@ -1,0 +1,410 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="3">
+  <diagram name="去中心化" id="K0WIdoEHKe5Pq1Bd4Mqo">
+    <mxGraphModel dx="1230" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" style="" parent="0" />
+        <mxCell id="vUkILgBZVAyPaTqSMExO-1" value="Agent 1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-2" value="\(\textcolor{red}{a^1} \sim \pi(\cdot | \textcolor{green}{o^1}; \theta^1)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-3" value="Agent 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-4" value="\(\textcolor{red}{a^2} \sim \pi(\cdot | \textcolor{green}{o^2}; \theta^2)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-5" value="Agent n" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-6" value="\(\textcolor{red}{a^n} \sim \pi(\cdot | \textcolor{green}{o^n}; \theta^n)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-7" value="\(\cdots\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-9" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="120" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-19" value="\(q(\textcolor{green}{o^1}, \textcolor{red}{a^1}; \omega^1)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-20" value="\(q(\textcolor{green}{o^2}, \textcolor{red}{a^2}; \omega^2)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-21" value="\(q(\textcolor{green}{o^n}, \textcolor{red}{a^n}; \omega^n)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-22" value="\(\textcolor{red}{a^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-23" value="\(\textcolor{red}{a^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-24" value="\(\textcolor{red}{a^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-25" value="\(\textcolor{green}{o^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-26" value="\(\textcolor{blue}{r^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-27" value="\(\textcolor{green}{o^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-28" value="\(\textcolor{blue}{r^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-29" value="\(\textcolor{green}{o^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-30" value="\(\textcolor{blue}{r^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1fCTaeAEcG7OZzQ63a-1" value="各 Agent 使用各自观察到的状态和奖励更新自己的策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="160" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-11" value="箭头" style="locked=1;" parent="0" />
+        <mxCell id="vUkILgBZVAyPaTqSMExO-12" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="40" as="sourcePoint" />
+            <mxPoint x="40" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="80" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="40" as="sourcePoint" />
+            <mxPoint x="240" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-16" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-17" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="40" as="sourcePoint" />
+            <mxPoint x="520" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUkILgBZVAyPaTqSMExO-18" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="vUkILgBZVAyPaTqSMExO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="120" as="sourcePoint" />
+            <mxPoint x="560" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TWbkB6dG613iSCQmHVxF" name="完全中心化">
+    <mxGraphModel dx="1388" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" style="" parent="0" />
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-1" value="Agent 1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-2" value="\(\textcolor{red}{a^i} \sim \pi(\cdot | \textcolor{green}{o^1}, \textcolor{green}{o^2}, \cdots, \textcolor{green}{o^n}; \theta^i)\), for all \(i = 1, 2, \cdots, n\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry y="-160" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-3" value="Agent 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-5" value="Agent n" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-7" value="\(\cdots\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-8" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry y="120" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-9" value="\(q(\textcolor{green}{o^1}, \cdots, \textcolor{green}{o^n}, \textcolor{red}{a^1}, \cdots, \textcolor{red}{a^n}; \omega^i)\), for all \(i = 1, 2, \cdots, n\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry y="-200" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-12" value="\(\textcolor{red}{a^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-13" value="\(\textcolor{red}{a^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-14" value="\(\textcolor{red}{a^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-15" value="\(\textcolor{green}{o^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-16" value="\(\textcolor{blue}{r^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-17" value="\(\textcolor{green}{o^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-18" value="\(\textcolor{blue}{r^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-60" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-19" value="\(\textcolor{green}{o^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-80" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-20" value="\(\textcolor{blue}{r^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-80" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-27" value="Interact" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-29" value="Central Controller" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-22" value="箭头" style="locked=1;" parent="0" />
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;dashed=1;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="120" as="sourcePoint" />
+            <mxPoint x="60" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;dashed=1;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="sourcePoint" />
+            <mxPoint x="260" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;dashed=1;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="500" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-30" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-80" as="sourcePoint" />
+            <mxPoint x="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-31" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" as="sourcePoint" />
+            <mxPoint x="160" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-32" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="-80" as="sourcePoint" />
+            <mxPoint x="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-33" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" as="sourcePoint" />
+            <mxPoint x="280" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-34" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-80" as="sourcePoint" />
+            <mxPoint x="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ZSHvl_FQzPzoSQp5xy6-35" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="5ZSHvl_FQzPzoSQp5xy6-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" as="sourcePoint" />
+            <mxPoint x="440" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ssLGBGyxSScKSlO2C5on" name="中心化训练去中心化执行">
+    <mxGraphModel dx="1830" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" value="Agent" style="" parent="0" />
+        <mxCell id="orMP3iw00dxKL6nvJpmw-15" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-14" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-13" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#800080;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="FJBhthwHk_ApPxGzJ3VX-1" target="rINc2Tf5TEPq3zzqWmwO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FJBhthwHk_ApPxGzJ3VX-1" value="Critic 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-1" value="\(q(\textcolor{green}{\pmb{o}}, \textcolor{red}{\pmb{a}}; \omega^1)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#800080;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="rINc2Tf5TEPq3zzqWmwO-2" target="rINc2Tf5TEPq3zzqWmwO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-2" value="Critic 2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-3" value="\(q(\textcolor{green}{\pmb{o}}, \textcolor{red}{\pmb{a}}; \omega^2)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#800080;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="rINc2Tf5TEPq3zzqWmwO-4" target="rINc2Tf5TEPq3zzqWmwO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-4" value="Critic n" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-5" value="\(q(\textcolor{green}{\pmb{o}}, \textcolor{red}{\pmb{a}}; \omega^n)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="rINc2Tf5TEPq3zzqWmwO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-7" value="Actor 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="rINc2Tf5TEPq3zzqWmwO-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-8" value="Actor&amp;nbsp;2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="rINc2Tf5TEPq3zzqWmwO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rINc2Tf5TEPq3zzqWmwO-9" value="Actor&amp;nbsp;n" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-1" value="\(\pi(\textcolor{red}{a^1}&amp;nbsp;| \textcolor{green}{o^1}; \theta^1)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-2" value="\(\pi(\textcolor{red}{a^2}&amp;nbsp;| \textcolor{green}{o^2}; \theta^2)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-3" value="\(\pi(\textcolor{red}{a^n}&amp;nbsp;| \textcolor{green}{o^n}; \theta^n)\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-10" value="\(\textcolor{purple}{q^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="140" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-11" value="\(\textcolor{purple}{q^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-12" value="\(\textcolor{purple}{q^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-16" value="Agent 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-17" value="Agent 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-18" value="Agent n" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-2" value="\(\cdots\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-3" value="\(\cdots\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=HarmonyOS Sans SC;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-19" value="\(\textcolor{red}{a^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-20" value="\(\textcolor{red}{a^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-21" value="\(\textcolor{red}{a^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-22" value="\(\textcolor{green}{o^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-23" value="\(\textcolor{blue}{r^1}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-24" value="\(\textcolor{green}{o^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-25" value="\(\textcolor{blue}{r^2}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-26" value="\(\textcolor{green}{o^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="740" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-27" value="\(\textcolor{blue}{r^n}\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-28" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-29" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-30" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-31" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-32" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="260" as="sourcePoint" />
+            <mxPoint x="700" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-33" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#008000;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="340" as="sourcePoint" />
+            <mxPoint x="740" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-35" value="\((\textcolor{green}{o^1}, \textcolor{red}{a^1}, \textcolor{blue}{r^1})\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-37" value="\((\textcolor{green}{o^2}, \textcolor{red}{a^2}, \textcolor{blue}{r^2})\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edBaAeJVD5zUOgXDJzQw-39" value="\((\textcolor{green}{o^n}, \textcolor{red}{a^n}, \textcolor{blue}{r^n})\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="820" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-4" value="中央控制器和环境" style="locked=1;" parent="0" />
+        <mxCell id="orMP3iw00dxKL6nvJpmw-5" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;fillColor=none;" vertex="1" parent="orMP3iw00dxKL6nvJpmw-4">
+          <mxGeometry width="840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-6" value="Central Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;" vertex="1" parent="orMP3iw00dxKL6nvJpmw-4">
+          <mxGeometry width="840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orMP3iw00dxKL6nvJpmw-20" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;fontStyle=1;fillColor=default;" vertex="1" parent="orMP3iw00dxKL6nvJpmw-4">
+          <mxGeometry y="340" width="840" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
