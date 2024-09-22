@@ -296,6 +296,13 @@ NAME                                                             READY   STATUS 
 openwhisk-nfs-nfs-subdir-external-provisioner-54846ffcfb-26j8r   1/1     Running   0          5m35s
 ```
 
+#### 其他可能用到的命令
+
+```bash
+# 卸载 NFS Subdirectory External Provisioner
+sudo helm --kubeconfig /etc/rancher/k3s/k3s.yaml uninstall openwhisk-nfs
+```
+
 ## 6 部署 OpenWhisk
 
 从宿主机连接到 master 节点：
@@ -572,4 +579,64 @@ multipass start storage
 multipass start master
 multipass start worker1
 multipass start worker2
+```
+
+## 9 wsk CLI 常用命令
+
+### 9.1 函数相关
+
+```bash
+# 列出所有函数
+sudo wsk -i action list
+
+# 创建函数
+sudo wsk -i action create <action_name> <action_file>
+sudo wsk -i action create <action_name> <action_zip> --kind <available_runtime>
+# --kind 可选的参数在 https://github.com/apache/openwhisk-deploy-kube/blob/master/helm/openwhisk/runtimes.json 中配置
+
+# 删除函数
+sudo wsk -i action delete <action_name>
+
+# 更新函数
+sudo wsk -i action update <action_name> <action_file> --docker openwhisk/action-python-v3.11
+# --docker 选项可以指定函数的运行环境（必须在 Docker Hub 上存在）
+
+# 调用函数
+sudo wsk -i action invoke --result <action_name> --param <key1> <value1> ...
+```
+
+### 9.2 调用相关
+
+```bash
+# 列出所有函数调用
+sudo wsk -i activation list
+
+# 获取函数调用的详细信息
+sudo wsk -i activation get <request_id>
+
+# 获取函数调用的结果
+sudo wsk -i activation result <request_id>
+
+# 获取函数调用的日志
+sudo wsk -i activation logs <request_id>
+```
+
+### 9.3 利用 virtualenv 打包 Python 函数和依赖
+
+> 参考文档：
+>
+> - <https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-prep#prep_python>
+> - <https://github.com/apache/openwhisk/blob/master/docs/actions-python.md#packaging-python-actions-with-a-virtual-environment-in-zip-files>
+> - <https://github.com/apache/openwhisk-runtime-python?tab=readme-ov-file#using-additional-python-libraries>
+
+将 `__main__.py` 和 `requirements.txt` 所在的目录挂载到 `openwhisk/action-python-v3.12` 容器的 `/tmp` 目录下，然后利用容器的环境创建 virtualenv 文件夹并安装 `requirements.txt` 中的依赖：
+
+```bash
+sudo docker run --rm -v "$(pwd):/tmp" --entrypoint "/bin/bash" openwhisk/action-python-v3.12 -c "cd /tmp && virtualenv virtualenv && source virtualenv/bin/activate && pip install -r requirements.txt"
+```
+
+然后将文件夹内的内容打包成 zip 文件：
+
+```bash
+zip -r ../<action_name>.zip .
 ```
