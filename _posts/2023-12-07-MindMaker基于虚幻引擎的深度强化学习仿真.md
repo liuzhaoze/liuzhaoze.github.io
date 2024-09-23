@@ -104,7 +104,7 @@ tags: [ue5, drl]    # TAG names should always be lowercase
 ## 7 添加 DRL 参数
 
 1. 在 `_DRLTutorial/Blueprints` 目录下创建 `DrlParameters` 文件夹
-2. 将 `MindMaker/MindMakerDRLStarterContent/Assets/MindMakerDRLStarterContent` 目录下的 A2c Dqn Ddpg Sac Ppo Td3 `XXXCustomParameters_SC` 文件夹拷贝至 `DrlParameters` 中，并重命名为 `S_XXXCustomParameters` 用于区分
+2. 将 `MindMaker/MindMakerDRLStarterContent/Assets/MindMakerDRLStarterContent` 目录下的 A2c Dqn Ddpg Sac Ppo Td3 `XXXCustomParameters_SC` 文件拷贝至 `DrlParameters` 中，并重命名为 `S_XXXCustomParameters` 用于区分
 3. 将上述目录下的 `ActivationFunctions_SC` 拷贝至 `DrlParameters` 中，并重命名为 `E_ActivationFunctions`
 4. 将 `S_XXXCustomParameters` 中的 activation func 参数类型改为 `E Activation Functions`
 5. 将上述目录下的 `PolicyType_SC` 拷贝至 `DrlParameters` 中，并重命名为 `E_PolicyType`
@@ -142,7 +142,7 @@ tags: [ue5, drl]    # TAG names should always be lowercase
 
 1. My Blueprint 选项卡 - FUNCTIONS - 右侧 `+` - 命名为 `LaunchMindMaker`
 2. Details 选项卡 - Inputs - 右侧 `+` - 创建 19 个变量（见下方输入变量表）
-3. 将 `MindMaker/MindMakerDRLStarterContent/Assets/MindMakerDRLStarterContent` 目录下的 `MindMakerCustomStruct_SC` 拷贝至 `Blueprints` ，并重命名为 `S_MindMakerCustomStruct` ，调整自定义变量类型为拷贝后的名字
+3. 将 `MindMaker/MindMakerDRLStarterContent/Assets/MindMakerDRLStarterContent` 目录下的 `MindMakerCustomStruct_SC` 拷贝至 `Blueprints` ，并重命名为 `S_MindMakerCustomStruct` ，修改结构体中的成员变量类型为[第 7 章](#7-添加-drl-参数)中拷贝后的名字
 4. 在 My Blueprint 选项卡中添加变量表中第 2-6 行的变量
 5. 添加 `Set members in S_MindMakerCustomStruct` 节点 - Details 选项卡 - Pin Options - Default Category - 将所有的 (As pin) 设为 True
 6. 如图所示连接端口和节点  
