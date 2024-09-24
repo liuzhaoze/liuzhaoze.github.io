@@ -178,7 +178,7 @@ cp runtimes-minimal-travis.json runtimes-minimal-travis.json.bak
             "attachmentType": "text/plain"
         }
     }
-],
+]
 ```
 
 在 `runtimes.json` 中，修改 [Python](https://github.com/apache/openwhisk-deploy-kube/blob/master/helm/openwhisk/runtimes.json#L46) 部分的 [image](https://github.com/apache/openwhisk-deploy-kube/blob/master/helm/openwhisk/runtimes.json#L50) 为本文中定制的镜像。并且可以参照 Node.js 部分的 [stemCells](https://github.com/apache/openwhisk-deploy-kube/blob/master/helm/openwhisk/runtimes.json#L17) 配置定制 Python runtime 容器的 pre-warm 参数，以提高函数的冷启动性能：
@@ -272,6 +272,20 @@ sudo helm --kubeconfig /etc/rancher/k3s/k3s.yaml install owdev ./helm/openwhisk 
     └── __main__.py
 
 1 directory, 1 file
+```
+
+其中，`__main__.py` 中的代码与[第 2 章](#2-测试定制-openwhisk-python-runtime-容器可选)测试代码相同：
+
+```python
+def main(args):
+    import json
+
+    from ultralytics import YOLO
+
+    source = args.get("url", None)
+    model = YOLO("/models/yolov8n.pt")
+    results = model(source)
+    return {"result": str([json.loads(r.to_json()) for r in results])}
 ```
 
 将该文件下的内容打包为 `yoloTest.zip` ：
