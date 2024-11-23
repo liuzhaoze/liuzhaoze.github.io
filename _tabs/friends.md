@@ -30,6 +30,10 @@ order: 4
       <img src="https://catcat.blog/wp-content/uploads/2023/12/cropped-photo_2023-11-07_02-57-03-192x192.jpg" alt="favicon" class="favicon"/>
       <a href="https://catcat.blog/" class="link-text" target="_blank">猫猫博客</a>
     </div>
+    <div class="link-item">
+      <img src="https://appscross.com/wp-content/uploads/2024/04/newlogo-512x512px.png" alt="favicon" class="favicon"/>
+      <a href="https://appscross.com/" class="link-text" target="_blank">老E的博客</a>
+    </div>
   </div>
   <div class="column">
     <div class="link-item">
