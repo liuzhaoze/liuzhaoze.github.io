@@ -318,7 +318,7 @@ pip install shimmy
        pass  # 由于不需要控制随机性，此方法为空
    ```
 
-<details><summary>查看代码</summary><pre><code class="language-python">
+<details><summary>查看代码</summary>记得删除第一行和最后一行的代码块标记<pre>
 
 ```python
 # (c) Copywrite 2020 Aaron Krumins
@@ -1340,7 +1340,7 @@ if __name__ == "__main__":
         print("Unknown async_mode: " + sio.async_mode)
 ```
 
-</code></pre></details>
+</pre></details>
 
 ## 11 其他
 
