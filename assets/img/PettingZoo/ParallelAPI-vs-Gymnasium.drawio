@@ -1,0 +1,120 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="5HR66ZYHO3iWxEEs3TQH">
+    <mxGraphModel dx="1585" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-50" width="1080" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BimqWJH9Wof7U1ywLQl9-1" target="BimqWJH9Wof7U1ywLQl9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-2" value="Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="iwML2FXKRfyEG1_bKI1f-1">
+          <mxGeometry x="-0.0457" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-1" value="Agent" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry y="59.97" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="BimqWJH9Wof7U1ywLQl9-2" target="BimqWJH9Wof7U1ywLQl9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="30" />
+              <mxPoint x="-30" y="30" />
+              <mxPoint x="-30" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-2" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="270" y="59.97" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;strokeWidth=2;" parent="1" source="BimqWJH9Wof7U1ywLQl9-3" target="BimqWJH9Wof7U1ywLQl9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-11" value="Action 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" parent="BimqWJH9Wof7U1ywLQl9-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.135" y="-1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-3" value="Agent 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="BimqWJH9Wof7U1ywLQl9-4" target="BimqWJH9Wof7U1ywLQl9-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="-20" />
+              <mxPoint x="470" y="-20" />
+              <mxPoint x="470" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="BimqWJH9Wof7U1ywLQl9-4" target="BimqWJH9Wof7U1ywLQl9-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="-20" />
+              <mxPoint x="470" y="-20" />
+              <mxPoint x="470" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="BimqWJH9Wof7U1ywLQl9-4" target="BimqWJH9Wof7U1ywLQl9-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="-20" />
+              <mxPoint x="470" y="-20" />
+              <mxPoint x="470" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-4" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="850" y="70" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="BimqWJH9Wof7U1ywLQl9-5" target="BimqWJH9Wof7U1ywLQl9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-12" value="Action 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" parent="BimqWJH9Wof7U1ywLQl9-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2259" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-5" value="Agent 2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="500" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="BimqWJH9Wof7U1ywLQl9-6" target="BimqWJH9Wof7U1ywLQl9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-13" value="Action n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" parent="BimqWJH9Wof7U1ywLQl9-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.2344" relative="1" as="geometry">
+            <mxPoint x="-8" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-6" value="Agent n" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="500" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-7" value="\(\vdots\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="540" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BimqWJH9Wof7U1ywLQl9-18" value="Obvservations &amp;amp; Rewards" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-50" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-6" value="Observation &amp;amp; Reward" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-9" value="Gymnasium" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iwML2FXKRfyEG1_bKI1f-10" value="PettingZoo Parallel API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

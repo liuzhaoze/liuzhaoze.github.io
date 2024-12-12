@@ -1,0 +1,114 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="LYgubR8mVPHEfvA1-WC7">
+    <mxGraphModel dx="1430" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fQCKRqA2u6LRkjWFW075-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;strokeWidth=2;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-1" target="fQCKRqA2u6LRkjWFW075-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-4" value="Action 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-3">
+          <mxGeometry x="-0.0625" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-1" value="Agent 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-9" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-2" target="fQCKRqA2u6LRkjWFW075-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-2" target="fQCKRqA2u6LRkjWFW075-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-20" value="Reward 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-125" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-2" value="Env Step 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;strokeWidth=2;" edge="1" source="fQCKRqA2u6LRkjWFW075-7" target="fQCKRqA2u6LRkjWFW075-8" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-6" value="Action 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-5">
+          <mxGeometry x="-0.0625" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-7" value="Agent 2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-14" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-8" target="fQCKRqA2u6LRkjWFW075-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-15" value="\(\cdots\)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-14">
+          <mxGeometry x="-0.0679" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-8" target="fQCKRqA2u6LRkjWFW075-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-21" value="Reward 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-52" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-8" value="Env Step 2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;strokeWidth=2;" edge="1" source="fQCKRqA2u6LRkjWFW075-12" target="fQCKRqA2u6LRkjWFW075-13" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-11" value="Action n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-10">
+          <mxGeometry x="-0.0625" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-12" value="Agent n" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-13" target="fQCKRqA2u6LRkjWFW075-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-22" value="Reward n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-13" value="Env Step n" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=HarmonyOS Sans SC;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-16" target="fQCKRqA2u6LRkjWFW075-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-26" value="Cumulative&lt;div style=&quot;font-size: 16px;&quot;&gt;Reward 1&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-380" y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-16" target="fQCKRqA2u6LRkjWFW075-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-27" value="Cumulative&lt;br style=&quot;font-size: 16px;&quot;&gt;reward 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="fQCKRqA2u6LRkjWFW075-16" target="fQCKRqA2u6LRkjWFW075-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-28" value="Cumulative&lt;br style=&quot;font-size: 16px;&quot;&gt;Reward n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;strokeWidth=2;fontFamily=HarmonyOS Sans SC;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" connectable="0" parent="fQCKRqA2u6LRkjWFW075-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fQCKRqA2u6LRkjWFW075-16" value="Cumulative&lt;div&gt;Rewards&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=HarmonyOS Sans SC;fontSize=20;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-290" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
