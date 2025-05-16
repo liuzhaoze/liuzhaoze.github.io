@@ -3,6 +3,7 @@ title: MindMaker - 基于虚幻引擎的深度强化学习仿真
 date: 2023-12-07 14:55:00 +0800
 categories: [软件]
 tags: [ue5, drl]    # TAG names should always be lowercase
+pin: true
 ---
 
 > 如果在阅读时发现问题，欢迎在我的 [GitHub Pages](https://github.com/liuzhaoze/liuzhaoze.github.io) 仓库中提交 Issue 。

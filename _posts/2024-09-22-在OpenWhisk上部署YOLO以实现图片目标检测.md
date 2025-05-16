@@ -3,6 +3,7 @@ title: 在 OpenWhisk 上部署 YOLO 以实现图片目标检测
 date: 2024-09-22 14:38:04 +0800
 categories: [软件]
 tags: [linux, ubuntu, kubernetes, serverless, yolo]    # TAG names should always be lowercase
+pin: true
 ---
 
 ## 0 前言

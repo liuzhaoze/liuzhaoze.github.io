@@ -3,6 +3,7 @@ title: OpenWrt 有线中继 AP 模式 Mesh 组网教程
 date: 2024-08-01 15:22:27 +0800
 categories: [软件]
 tags: [openwrt]    # TAG names should always be lowercase
+pin: true
 ---
 
 > 参考资料：

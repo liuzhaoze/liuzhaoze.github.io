@@ -3,6 +3,7 @@ title: 从石头剪刀布解析 PettingZoo 多智能体环境运行机制以及 
 date: 2024-12-09 08:56:45 +0800
 categories: [软件]
 tags: [drl, pettingzoo, tianshou]    # TAG names should always be lowercase
+pin: true
 ---
 
 ## 前言

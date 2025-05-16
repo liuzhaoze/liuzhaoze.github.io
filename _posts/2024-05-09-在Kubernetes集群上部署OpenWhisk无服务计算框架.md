@@ -3,6 +3,7 @@ title: 在 Kubernetes 集群上部署 OpenWhisk 无服务计算框架
 date: 2024-05-09 14:21:13 +0800
 categories: [软件]
 tags: [linux, ubuntu, kubernetes, serverless]    # TAG names should always be lowercase
+pin: true
 ---
 
 > 前置知识：[Kubernetes 一小时轻松入门](https://www.bilibili.com/video/BV1Se411r7vY/)
