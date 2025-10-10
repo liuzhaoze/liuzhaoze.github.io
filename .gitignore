@@ -28,3 +28,6 @@ assets/js/dist
 
 # Free File Sync
 *.ffs_db
+
+# draw.io backup
+.$*
