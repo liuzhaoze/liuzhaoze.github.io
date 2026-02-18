@@ -31,3 +31,6 @@ assets/js/dist
 
 # draw.io backup
 .$*
+
+# macOS specific files
+.DS_Store
