@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="2">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="2">
   <diagram name="第 1 页" id="y9LEz4xKixKy7bdXyOA4">
-    <mxGraphModel dx="1193" dy="1517" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1981" dy="1886" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,8 +66,13 @@
         <mxCell id="PvOujxNg_PI-_giluGQt-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="balq-lUvnQ9j7pNHZ8tI-28" target="PvOujxNg_PI-_giluGQt-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="balq-lUvnQ9j7pNHZ8tI-28" value="&lt;font color=&quot;#7f00ff&quot;&gt;&lt;b&gt;动作价值函数&lt;/b&gt;&lt;/font&gt; \(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}}\left[U_t \middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeWidth=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="410" y="330" width="520" height="50" as="geometry" />
+        <mxCell id="30Su1pwD8mxFyu5cslVr-1" value="在 \(t\) 时刻根据观测到的状态 \(\textcolor{green}{s_t}\) 做出动作 \(\textcolor{red}{a_t}\)，并在后续选择“最优策略”决策" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=更纱黑体 SC;fontSize=12;" vertex="1" connectable="0" parent="PvOujxNg_PI-_giluGQt-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="balq-lUvnQ9j7pNHZ8tI-28" value="&lt;font color=&quot;#7f00ff&quot;&gt;&lt;b&gt;动作价值函数&lt;/b&gt;&lt;/font&gt; \(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}}\left[U_t \middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)&lt;div&gt;表示后续动作根据策略 \(\pi\) 生成时，当前状态 \(\textcolor{green}{s_t}\) 下动作 \(\textcolor{red}{a_t}\) 的评分&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeWidth=1;strokeColor=#CCCCCC;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.9,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="405" y="330" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="balq-lUvnQ9j7pNHZ8tI-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="balq-lUvnQ9j7pNHZ8tI-23" target="balq-lUvnQ9j7pNHZ8tI-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -75,7 +80,7 @@
             <mxPoint x="745" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P27bC8qoyPHywM3mTXsK-2" value="&lt;span&gt;在 \(t\) 时刻观测到状态 \(\textcolor{green}{s_t}\) 并做出动作 \(\textcolor{red}{a_t}\)&lt;/span&gt;&lt;br&gt;&lt;span&gt;对未来的状态和动作 \(\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}\) 求期望&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=更纱黑体 SC;fontSize=12;" parent="balq-lUvnQ9j7pNHZ8tI-31" vertex="1" connectable="0">
+        <mxCell id="P27bC8qoyPHywM3mTXsK-2" value="&lt;span&gt;在 \(t\) 时刻根据观测到的状态 \(\textcolor{green}{s_t}\) 做出动作 \(\textcolor{red}{a_t}\)，并在后续始终按策略 \(\pi\) 决策&lt;/span&gt;&lt;br&gt;&lt;span&gt;对未来的状态和动作 \(\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}\) 求期望&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=更纱黑体 SC;fontSize=12;" parent="balq-lUvnQ9j7pNHZ8tI-31" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -109,7 +114,7 @@
           <mxGeometry x="40" y="50" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PvOujxNg_PI-_giluGQt-6" value="&lt;b&gt;&lt;font color=&quot;#7f00ff&quot;&gt;最优动作价值函数&lt;/font&gt;&lt;/b&gt; \(Q^{\star}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \max\limits_{\pi} Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t})\)&lt;br&gt;表示状态 \(\textcolor{green}{s_t}\) 下做出动作 \(\textcolor{red}{a_t}\) 所能达到的最高分数，与策略 \(\pi\) 无关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;fontColor=default;strokeColor=#CCCCCC;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="460" width="520" height="60" as="geometry" />
+          <mxGeometry x="405" y="460" width="530" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SyCfzCqmaqDro-8NCypD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="PvOujxNg_PI-_giluGQt-8" target="SyCfzCqmaqDro-8NCypD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -546,7 +551,7 @@
         <mxCell id="sJqLkv-XOYl5UadH0FZE-17" value="\(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}}, \textcolor{red}{A_{t+1}}}\left[\textcolor{blue}{R_t} + \gamma \cdot Q_{\pi}(\textcolor{green}{S_{t+1}}, \textcolor{red}{A_{t+1}})&amp;nbsp;\middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)&lt;br&gt;使用了递归定义：\(U_t = \textcolor{blue}{R_t} + \gamma \cdot U_{t+1}\) 然后等式两边求期望" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="1500" y="400" width="520" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sJqLkv-XOYl5UadH0FZE-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="balq-lUvnQ9j7pNHZ8tI-28" target="sJqLkv-XOYl5UadH0FZE-17" edge="1">
+        <mxCell id="sJqLkv-XOYl5UadH0FZE-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" parent="1" source="balq-lUvnQ9j7pNHZ8tI-28" target="sJqLkv-XOYl5UadH0FZE-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835" y="230" as="sourcePoint" />
             <mxPoint x="835" y="315" as="targetPoint" />
@@ -1261,7 +1266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 2 页" id="R_zPpQoCucMGlSv_RsUl">
-    <mxGraphModel dx="1313" dy="1614" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="6703" dy="4631" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="KOUpriuUwOJteqnQQ4VB-0" />
         <mxCell id="KOUpriuUwOJteqnQQ4VB-1" parent="KOUpriuUwOJteqnQQ4VB-0" />
@@ -1327,8 +1332,13 @@
         <mxCell id="KOUpriuUwOJteqnQQ4VB-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KOUpriuUwOJteqnQQ4VB-1" source="KOUpriuUwOJteqnQQ4VB-21" target="KOUpriuUwOJteqnQQ4VB-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KOUpriuUwOJteqnQQ4VB-21" value="&lt;font color=&quot;#7f00ff&quot;&gt;&lt;b&gt;动作价值函数&lt;/b&gt;&lt;/font&gt; \(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}}\left[U_t \middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeWidth=1;strokeColor=#CCCCCC;" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
-          <mxGeometry x="410" y="330" width="520" height="50" as="geometry" />
+        <mxCell id="ePppuBc8XawBLdEQSskw-0" value="&lt;span style=&quot;font-family: &amp;quot;更纱黑体 SC&amp;quot;; font-size: 12px;&quot;&gt;在 \(t\) 时刻根据观测到的状态 \(\textcolor{green}{s_t}\) 做出动作 \(\textcolor{red}{a_t}\)，并在后续选择“最优策略”决策&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KOUpriuUwOJteqnQQ4VB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOUpriuUwOJteqnQQ4VB-21" value="&lt;font color=&quot;#7f00ff&quot;&gt;&lt;b&gt;动作价值函数&lt;/b&gt;&lt;/font&gt;&amp;nbsp;\(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}}\left[U_t \middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)&lt;div&gt;表示后续动作根据策略 \(\pi\) 生成时，当前状态 \(\textcolor{green}{s_t}\) 下动作 \(\textcolor{red}{a_t}\) 的评分&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeWidth=1;strokeColor=#CCCCCC;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.9,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
+          <mxGeometry x="405" y="330" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KOUpriuUwOJteqnQQ4VB-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KOUpriuUwOJteqnQQ4VB-1" source="KOUpriuUwOJteqnQQ4VB-17" target="KOUpriuUwOJteqnQQ4VB-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1336,7 +1346,7 @@
             <mxPoint x="745" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KOUpriuUwOJteqnQQ4VB-23" value="&lt;span&gt;在 \(t\) 时刻观测到状态 \(\textcolor{green}{s_t}\) 并做出动作 \(\textcolor{red}{a_t}\)&lt;/span&gt;&lt;br&gt;&lt;span&gt;对未来的状态和动作 \(\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}\) 求期望&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=更纱黑体 SC;fontSize=12;" parent="KOUpriuUwOJteqnQQ4VB-22" vertex="1" connectable="0">
+        <mxCell id="KOUpriuUwOJteqnQQ4VB-23" value="在 \(t\) 时刻根据观测到的状态 \(\textcolor{green}{s_t}\) 做出动作 \(\textcolor{red}{a_t}\)，并在后续始终按策略 \(\pi\) 决策&lt;br&gt;对未来的状态和动作 \(\textcolor{green}{S_{t+1}, S_{t+2}, \cdots}, \textcolor{red}{A_{t+1}, A_{t+2}, \cdots}\) 求期望" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=更纱黑体 SC;fontSize=12;" parent="KOUpriuUwOJteqnQQ4VB-22" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1370,7 +1380,7 @@
           <mxGeometry x="40" y="50" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KOUpriuUwOJteqnQQ4VB-30" value="&lt;b&gt;&lt;font color=&quot;#7f00ff&quot;&gt;最优动作价值函数&lt;/font&gt;&lt;/b&gt; \(Q^{\star}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \max\limits_{\pi} Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t})\)&lt;br&gt;表示状态 \(\textcolor{green}{s_t}\) 下做出动作 \(\textcolor{red}{a_t}\) 所能达到的最高分数，与策略 \(\pi\) 无关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;fontColor=default;strokeColor=#CCCCCC;strokeWidth=1;" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
-          <mxGeometry x="410" y="460" width="520" height="60" as="geometry" />
+          <mxGeometry x="405" y="460" width="530" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KOUpriuUwOJteqnQQ4VB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="KOUpriuUwOJteqnQQ4VB-1" source="KOUpriuUwOJteqnQQ4VB-34" target="KOUpriuUwOJteqnQQ4VB-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1807,7 +1817,7 @@
         <mxCell id="KOUpriuUwOJteqnQQ4VB-140" value="\(Q_{\pi}(\textcolor{green}{s_t}, \textcolor{red}{a_t}) = \mathbb{E}_{\textcolor{green}{S_{t+1}}, \textcolor{red}{A_{t+1}}}\left[\textcolor{blue}{R_t} + \gamma \cdot Q_{\pi}(\textcolor{green}{S_{t+1}}, \textcolor{red}{A_{t+1}})&amp;nbsp;\middle| \textcolor{green}{S_t = s_t}, \textcolor{red}{A_t = a_t}\right]\)&lt;br&gt;使用了递归定义：\(U_t = \textcolor{blue}{R_t} + \gamma \cdot U_{t+1}\) 然后等式两边求期望" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=更纱黑体 SC;fontSize=15;strokeColor=#CCCCCC;" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
           <mxGeometry x="1500" y="400" width="520" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KOUpriuUwOJteqnQQ4VB-141" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="KOUpriuUwOJteqnQQ4VB-1" source="KOUpriuUwOJteqnQQ4VB-21" target="KOUpriuUwOJteqnQQ4VB-140" edge="1">
+        <mxCell id="KOUpriuUwOJteqnQQ4VB-141" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;fontFamily=更纱黑体 SC;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" parent="KOUpriuUwOJteqnQQ4VB-1" source="KOUpriuUwOJteqnQQ4VB-21" target="KOUpriuUwOJteqnQQ4VB-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835" y="230" as="sourcePoint" />
             <mxPoint x="835" y="315" as="targetPoint" />
@@ -2528,10 +2538,10 @@
           <mxGeometry x="460" y="260" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ms52rcBJpAuIR6ilgLE-3" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=更纱黑体 SC;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
-          <mxGeometry x="410" y="385" width="20" height="20" as="geometry" />
+          <mxGeometry x="405" y="385" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ms52rcBJpAuIR6ilgLE-4" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=更纱黑体 SC;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
-          <mxGeometry x="410" y="525" width="20" height="20" as="geometry" />
+          <mxGeometry x="405" y="525" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ms52rcBJpAuIR6ilgLE-5" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=更纱黑体 SC;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="KOUpriuUwOJteqnQQ4VB-1" vertex="1">
           <mxGeometry x="1060" y="385" width="20" height="20" as="geometry" />
